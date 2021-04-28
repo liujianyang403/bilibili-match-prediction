@@ -21,8 +21,8 @@ public class Config {
     }
 
     public int getPredictNumberOfCoins() {
-        if (predictNumberOfCoins > 10) {
-            predictNumberOfCoins = 10;
+        if (predictNumberOfCoins > 5) {
+            predictNumberOfCoins = 3;
         }
         return predictNumberOfCoins;
     }
